@@ -1,12 +1,41 @@
 The whole pipeline can be divided into four sections: Multiple sequences alignment, Generate consensus sequence and detect conserved regions, Design primers, and Filter primers.
 
-1. Multiple sequence alignment: 
-  Implement multiple sequences algnemnt with clustalw2, choose the file you want to align (in fasta format) and the path where you want to generate the MSA file by the 'Browse' buttons. 
+Multiple sequence alignment: 
+This step will implement multiple sequences algnemnt with clustalw2
+1. Choose the file you want to align (in fasta format). 
+2. Choose the path where you want to generate the MSA file and name it. 
+3. Click 'run' to genrate alignment file.
 *Each time you should only upload one file.
 
 
-2. Generate consensus sequence and detect conserved regions: This step will generate consensus sequence and detect the conserved regions from the MSA files genrated from last step. 
-  Choose the MSA file , then you can name your consensus sequence. 
-  Set a threshold for your consensus sequence. This is the threshold specifying how common a particular residue has to be at a position before it is added. The default is 0.7 (meaning 70%).
-  Choose where to save the consensus sequence and the conserved regions file.
-  Click 'run' to generate the two files.
+
+Generate consensus sequence and detect conserved regions: 
+This step will generate consensus sequence and detect the conserved regions from the alignment files genrated from last step.
+1. Choose the MSA file , then you can name your consensus sequence. 
+2. Set a threshold for your consensus sequence. This is the threshold specifying how common a particular residue has to be at a position before it is added. The default is 0.7 (meaning 70%).
+3. Choose where to save the consensus sequence and the conserved regions fileand name them.
+4. Click 'run' to generate the two files.
+
+
+
+Design primers:
+This step will design primers for all the sequences in the input file.
+1. Choose the template sequences (input file).
+2. Choose where to generate the parameter files for generating primer files (Parameter files are required by the primer3 software to design primers) and name it.
+3. Choose where to generate the primer files and name it.
+4. Click 'run' to generate parameters and primer files.
+
+
+
+Filter primer files:
+In this step, you are able to filter the primers by looking at the last base at 3'end (primers will combines with template better if the last base is C or G).
+1. Choose the primer file you want to filter.
+2. choose where to generate the filtered primer file and name it.
+3. You can filter the primer pair by: Looking at the end of left or right primer / Looking at the end of both left and right primers. For one primer, type 1; For both of them, type 2.
+* However, you should always check if all sequences have at least one primer pair in the filtered primer file because primer pairs will not be shown in the filtered primer file if they dont satisfy the filter function.
+
+
+
+THINGS TO BE NOTICED:
+1. Users should only apply this pipeline to the input files one by one to avoid mistakes if they have multiple input files.
+2. The 'Design primers' step in this pipeline shouldn't be executed independently, because the 'Generate consensus sequence and detect conserved regions' are conneted with the 'Design primers' step, users should always implement 'Generate consensus sequence and detect conserved regions' then do 'Design Primers'.
