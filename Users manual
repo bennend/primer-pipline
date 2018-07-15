@@ -1,0 +1,12 @@
+The whole pipeline can be divided into four sections: Multiple sequences alignment, Generate consensus sequence and detect conserved regions, Design primers, and Filter primers.
+
+1. Multiple sequence alignment: 
+  Implement multiple sequences algnemnt with clustalw2, choose the file you want to align (in fasta format) and the path where you want to generate the MSA file by the 'Browse' buttons. 
+*Each time you should only upload one file.
+
+
+2. Generate consensus sequence and detect conserved regions: This step will generate consensus sequence and detect the conserved regions from the MSA files genrated from last step. 
+  Choose the MSA file , then you can name your consensus sequence. 
+  Set a threshold for your consensus sequence. This is the threshold specifying how common a particular residue has to be at a position before it is added. The default is 0.7 (meaning 70%).
+  Choose where to save the consensus sequence and the conserved regions file.
+  Click 'run' to generate the two files.
