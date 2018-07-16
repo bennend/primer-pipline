@@ -15,4 +15,4 @@ To use this pipeline on Windows, please:
 4. If python is version 3.6 then download the pipeline package 3.6 from google drive through the browser in your VM. If its 3.5 then download package 3.5.
 5. Extract the folder to wherever you want, right click the empty space in the extracted folder, click 'Open in Terminal'.
 6. Type: sudo apt-get install python3-tk to install the essential component for GUI.
-7. Double click the GUI file in the folder, then you can play around with the pipeline.
+7. Double click the GUI file in the folder, then you can play around with the pipeline. (Type ./GUI in terminal if it doesn't work)
