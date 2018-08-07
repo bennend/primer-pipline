@@ -31,11 +31,11 @@ Filter primer files:
 In this step, you are able to filter the primers by looking at the last base at 3'end (primers will combines with template better if the last base is C or G).
 1. Choose the primer file you want to filter.
 2. choose where to generate the filtered primer file and name it.
-3. You can filter the primer pair by: Looking at the end of left or right primer / Looking at the end of both left and right primers. For one primer, type 1; For both of them, type 2.
 * However, you should always check if all sequences have at least one primer pair in the filtered primer file because primer pairs will not be shown in the filtered primer file if they dont satisfy the filter function.
 
 
 
 THINGS TO BE NOTICED:
 1. Users should only apply this pipeline to the input files one by one to avoid mistakes if they have multiple input files.
-2. The 'Design primers' step in this pipeline shouldn't be executed independently, because the 'Generate consensus sequence and detect conserved regions' are conneted with the 'Design primers' step, users should always implement 'Generate consensus sequence and detect conserved regions' then do 'Design Primers'.
+2. The 'Design primers' step in this pipeline shouldn't be executed independently, because the 'Generate consensus sequence and detect conserved regions' are conneted with the 'Design primers' step, users should always implement 'Generate consensus sequence and detect conserved regions' before using 'Design Primers'.
+3. There is a para.txt file in the pipeline package, where users can change the length of conserved regions they want to adapt this pipeline to their study. The default value is 70 for thestudy of Carbapenem resistant genes' study.
