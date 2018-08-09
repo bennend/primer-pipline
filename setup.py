@@ -1,5 +1,5 @@
 ## The setup file for cx_Freeze which is used to transform the Python code of the pipeline in to executable software.
-```
+
 import sys
 import os
 from cx_Freeze import setup, Executable
@@ -25,4 +25,3 @@ setup(name='PrimerDesigner',
       options=options,
       executables=executables)
 
-```
