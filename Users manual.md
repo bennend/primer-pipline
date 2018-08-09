@@ -24,14 +24,7 @@ This step will design primers for all the sequences in the input file.
 2. Choose where to generate the parameter files for generating primer files (Parameter files are required by the primer3 software to design primers) and name it.
 3. Choose where to generate the primer files and name it.
 4. Click 'run' to generate parameters and primer files.
-
-
-
-# Filter primer files:
-In this step, you are able to filter the primers by looking at the last base at 3'end (primers will combines with template better if the last base is C or G).
-1. Choose the primer file you want to filter.
-2. choose where to generate the filtered primer file and name it.
-* However, you should always check if all sequences have at least one primer pair in the filtered primer file because primer pairs will not be shown in the filtered primer file if they dont satisfy the filter function.
+5. A text file and an Excel file will be generated, where users can get their primers. And userscan also visualize the primers' quality by clicking 'Show primers' quality' button on the GUI.
 
 
 
