@@ -1,5 +1,6 @@
 # primer-pipline:
 A pipeline integrated with GUI that can design primers for DNA sequence family.
+This is a pipeline software that can be used to design primers for the consered regions of multiple homologous DNA sequences, including the multiple sequences alignemnt of the target sequences, and the consensus sequences from the alignemnt file from the MSA of the sequences, the dtection of the conserved regions of the sequences, the primer designing for the conserved region of each variant sequences. 
 
 ## FOR Linux-compatible operating system Users:
   To use this pipeline on Linux-compatible operating system, please:
