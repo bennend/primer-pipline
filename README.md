@@ -30,4 +30,4 @@ to install the essential component for GUI, otherwise you will get an error from
 ```
 libBLT.2.5.so.8.6: cannot open shared object file: No such file or directory
 ```
-7. Double click the GUI file in the folder, then you can play around with the pipeline. (Type ``` ./GUI ```in terminal if it doesn't work)
+7. Double click the GUI file in the folder, then you can play around with the pipeline (Type ``` ./GUI ```in terminal if it doesn't work).
