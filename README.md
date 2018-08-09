@@ -4,7 +4,7 @@ This is a pipeline software that can be used to design primers for the consered 
 
 ## FOR Mac Users:
   To use this pipeline on Linux-compatible operating system, please:
-1. Download the PrimerDesignerMac.zip from [google drive],(https://drive.google.com/file/d/1yr9P42LWtQzBEJhiK7NDN9j9XCU9lw_m/view?usp=sharing). 
+1. Download the PrimerDesignerMac.zip from [google drive](https://drive.google.com/file/d/1yr9P42LWtQzBEJhiK7NDN9j9XCU9lw_m/view?usp=sharing). 
 2. Extract the compressed file to wherever you want.
 3. Doulbe click the GUI file in the extracted PrimerDesignerMac folder.
 
