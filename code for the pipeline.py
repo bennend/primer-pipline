@@ -1,4 +1,3 @@
-```
 import os
 import tkinter as tk
 from tkinter import *
@@ -759,4 +758,3 @@ class Design_Primers(tk.Frame):
 app = PrimerDesigner()
 app.title('PrimerDesigner')
 app.mainloop()
-```
