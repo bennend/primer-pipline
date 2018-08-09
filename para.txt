@@ -10,4 +10,4 @@ PRIMER_MAX_SIZE:23
 PRODUCT_SIZE_RANGE:70-200
 70-200 is the range of the length of the amplicon in Primer.
 
-Users can change the values of the parameters in the format shown above.
+Users can change the values of the parameters in the same format shown above.
