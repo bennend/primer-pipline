@@ -1,0 +1,4 @@
+Minimum length of conserved regions:70
+PRIMER_MIN_SIZE:20
+PRIMER_MAX_SIZE:23
+PRODUCT_SIZE_RANGE:70-200
