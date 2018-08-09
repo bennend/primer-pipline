@@ -1,4 +1,11 @@
 Minimum length of conserved regions:70
+70 is the minimum length of the conserved region for the study of carbapenem-resistant genes, users can change it to any number they want to adapt this pipeline to their own studies. it tells the piepeline that if the detected regions' lengths are over 70, then they are regarded as conserved regions and will be shown in conserved region file, otherwise they will be ignored.
+
 PRIMER_MIN_SIZE:20
+20 is the minimum size of the primer in Primer3.
+
 PRIMER_MAX_SIZE:23
+20 is the maximu size of the primer in Primer3.
+
 PRODUCT_SIZE_RANGE:70-200
+70-200 is the range of the length of the amplicon in Primer.
