@@ -21,7 +21,7 @@ To use this pipeline on Windows, please:
 1. Download a [Virtual Machine (VM)](https://www.virtualbox.org/), and a [Ubuntu Mate ISO](https://ubuntu-mate.org/download/). Choose 64-bit and version 16.04.1 LTS(Bionic) for Ubuntu.
 2. Install the VM by following the [instructions](http://www.psychocats.net/ubuntu/virtualbox).
 3. After installation, check the python version in yout VM: Open terminal in your VM, type python3 and the version will be shown as 'Python 3.6.5 (default, ****)'.
-4. If python is version 3.6 then download the PrimerDesigner3.6.tar.gz from [google drive](https://drive.google.com/open?id=1f0g-wwnHCvSCp0VTWdnkGOxjThJ_h6BX) through the browser in your VM.
+4. If python is version 3.6 then download the PrimerDesigner3.6.tar.gz from [google drive](https://drive.google.com/open?id=1Q0MTvE34wbxfTWUiCK6HW6e-ab3M7v-G) through the browser in your VM.
 5. Extract the PrimerDesigner3.6.tar.gz folder to wherever you want, right click the empty space in the extracted folder, click 'Open in Terminal'.
 6. Type: 
 ```
